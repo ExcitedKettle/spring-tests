@@ -1,13 +1,11 @@
 package org.excited.kettle.experiments;
 
-import org.springframework.stereotype.Component;
-
-@Component
-public class ComponentB {
+@org.springframework.stereotype.Component
+public class Component {
 
     private final String input;
 
-    public ComponentB(final String input) {
+    public Component(final String input) {
         this.input = input;
     }
 
